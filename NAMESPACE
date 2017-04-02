@@ -1,0 +1,4 @@
+import("xml2")
+import("rstudioapi")
+export("LongdoDict")
+#exportPattern("^[[:alpha:]]+")
