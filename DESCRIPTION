@@ -8,5 +8,5 @@ Description:
 Depends: R (>= 3.3), rstudioapi
 Imports: xml2
 License: MIT License
-LazyData: TRUE
+
 
