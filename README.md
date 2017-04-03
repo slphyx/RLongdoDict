@@ -13,3 +13,7 @@ LongdoDict("tutelage")
 ```
 ![](http://www.sakngoi.com/wp-content/uploads/2017/04/longdo1.png)
 
+```{r example}
+LongdoDict("คอมพิวเตอร์")
+```
+![](http://www.sakngoi.com/wp-content/uploads/2017/04/longdo3.png)
