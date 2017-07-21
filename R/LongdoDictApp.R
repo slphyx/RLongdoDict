@@ -49,5 +49,3 @@ LongdoDictAddin <- function() {
   runGadget(ui, server, viewer = dialogViewer("LondoDict"))
 }
 
-
-LongdoDictAddin()
