@@ -1,10 +1,16 @@
+library(shiny)
+library(miniUI)
+library(xml2)
+library(rstudioapi)
 
 LongdoDictAddin <- function() {
   
   ui <- miniPage(
-      textInput("text", label =  "คำศัพท์ที่ต้องการค้นความหมาย ",value = "computer"),
+    miniTitleBar(title = "LongdoDict"),
+       textInput("text", label =  "คำศัพท์ที่ต้องการค้นความหมาย ",value = "computer"),
        actionButton("search","ค้น",width=50),
        actionButton("exit","Exit",width =50)
+
     ,
     miniContentPanel(
       uiOutput("inc")

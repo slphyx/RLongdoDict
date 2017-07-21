@@ -5,8 +5,12 @@ Version: 0.0.2
 Author: Sompob Saralamba
 Maintainer: Sompob Saralamba <saralamba@gmail.com>
 Description: 
-Depends: R (>= 3.3), rstudioapi, miniUI, shiny
-Imports: xml2
+Depends: R (>= 3.3) 
+Imports: 
+  shiny (>= 0.13),
+  miniUI (>= 0.1.1),
+  rstudioapi (>= 0.5),
+  xml2 (>= 0.1.2)
 License: MIT License
 
 
