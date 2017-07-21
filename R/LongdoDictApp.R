@@ -1,8 +1,3 @@
-library(shiny)
-library(miniUI)
-library(xml2)
-library(rstudioapi)
-
 LongdoDictAddin <- function() {
   
   ui <- miniPage(
