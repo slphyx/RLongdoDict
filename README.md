@@ -19,3 +19,5 @@ LongdoDict("คอมพิวเตอร์")
 ![](http://www.sakngoi.com/wp-content/uploads/2017/04/longdo3.png)
 
 ![](http://www.sakngoi.com/wp-content/uploads/2017/07/longdodict2.png)
+
+![](http://www.sakngoi.com/wp-content/uploads/2017/04/dict.png)
