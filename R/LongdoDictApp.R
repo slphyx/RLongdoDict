@@ -3,9 +3,10 @@ LongdoDictAddin <- function() {
   ui <- miniPage(
     miniTitleBar(title = "LongdoDict"),
        textInput("text", label =  "Enter Thai or English word",value = "computer"),
-       actionButton("search","Go!",width=50),
-       actionButton("exit","Exit",width =50)
-
+    column(10, 
+      actionButton("search","Search",width='80px'),
+       actionButton("exit","Exit",width ='80px')
+      )
     ,
     miniContentPanel(
       uiOutput("inc")
@@ -29,15 +30,13 @@ LongdoDictAddin <- function() {
       return(includeHTML(htmlfile.path))
     }
     
-    observe({
-      if(input$search>0)
-        output$inc<-renderUI({getPage(inputtext = input$text)})
-    })
     
-    observe({
-      if(input$exit>0)
-        stopApp()
-    })
+    observeEvent(input$search,{
+      out.page <- getPage(inputtext = input$text)
+      output$inc <- renderUI(out.page)}
+      )    
+
+    observeEvent(input$exit,stopApp())
     
   }
   

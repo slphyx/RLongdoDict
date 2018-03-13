@@ -1,4 +1,4 @@
 Name: RLongdoDict
-Description: RLongdoDict
+Description: Longdo Dictionary in R
 Binding: LongdoDictAddin
 Interactive: true
