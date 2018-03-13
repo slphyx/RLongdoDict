@@ -29,15 +29,13 @@ LongdoDictAddin <- function() {
       return(includeHTML(htmlfile.path))
     }
     
-    observe({
-      if(input$search>0)
-        output$inc<-renderUI({getPage(inputtext = input$text)})
-    })
     
-    observe({
-      if(input$exit>0)
-        stopApp()
-    })
+    observeEvent(input$search,{
+      out.page <- getPage(inputtext = input$text)
+      output$inc <- renderUI(out.page)}
+      )    
+
+    observeEvent(input$exit,stopApp())
     
   }
   
