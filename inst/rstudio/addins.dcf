@@ -1,4 +1,4 @@
 Name: RLongdoDict
-Description: Longdo Dictionary in R
+Description: Longdo Dictionary in RStudio (Thai-English/English-Thai)
 Binding: LongdoDictAddin
 Interactive: true
