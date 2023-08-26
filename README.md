@@ -3,7 +3,7 @@ Longdo Dictionary in RStudio
 
 ###Install RLongdoDict
 ```{r install_devtools, eval=FALSE}
-library("devtools")
+library("remotes")
 install_github("slphyx/RLongdoDict")
 ```
 
