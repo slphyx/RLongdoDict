@@ -1,7 +1,7 @@
 LongdoDictAddin <- function() {
   
   ui <- miniPage(
-    miniTitleBar(title = "RLongdoDict by saralamba@gmail.com"),
+    miniTitleBar(title = "RLongdoDict by slphyx"),
        textInput("text", label =  "Enter Thai or English word",value = "computer"),
     column(10, 
       actionButton("search","Search",width='80px'),
