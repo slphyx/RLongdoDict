@@ -1,7 +1,7 @@
 Package: RLongdoDict
 Type: Package
 Title: Longdo Dictionary Thai-English/English-Thai
-Version: 0.0.2
+Version: 0.1
 Author: Sompob Saralamba
 Maintainer: Sompob Saralamba <saralamba@gmail.com>
 Description: Longdo Dictionary in R/Rstudio
